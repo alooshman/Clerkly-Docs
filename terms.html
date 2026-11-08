@@ -8,6 +8,9 @@
         :root {
             color-scheme: light dark;
             --primary: #007AFF;
+            --primary-text: #0057B8;
+            --btn-bg: #0057B8;
+            --btn-text: #FFFFFF;
             --bg: #F2F2F7;
             --card-bg: #FFFFFF;
             --text: #1C1C1E;
@@ -20,6 +23,9 @@
         @media (prefers-color-scheme: dark) {
             :root {
                 --primary: #0A84FF;
+                --primary-text: #0A84FF;
+                --btn-bg: #0A84FF;
+                --btn-text: #FFFFFF;
                 --bg: #000000;
                 --card-bg: #1C1C1E;
                 --text: #FFFFFF;
@@ -100,7 +106,7 @@
         }
 
         a {
-            color: var(--primary);
+            color: var(--primary-text);
             text-decoration: underline;
         }
 
@@ -109,7 +115,7 @@
         }
 
         a:focus-visible {
-            outline: 3px solid var(--primary);
+            outline: 3px solid var(--primary-text);
             outline-offset: 3px;
             border-radius: 2px;
         }
@@ -126,8 +132,8 @@
         }
 
         footer a {
-            color: var(--primary);
-            text-decoration: none;
+            color: var(--primary-text);
+            text-decoration: underline;
             margin: 0 8px;
         }
 
@@ -146,7 +152,7 @@
 <div class="container">
     <header>
         <h1>Terms of Service & EULA</h1>
-        <p>Last Updated: September 13, 2026</p>
+        <p>Last Updated: November 7, 2026</p>
     </header>
 
     <main class="card">
@@ -209,7 +215,7 @@
         <p>We reserve the right to update or modify these Terms at any time. Any changes will be effective immediately upon posting to this page with an updated "Last Updated" date. Your continued use of the App following the posting of changes constitutes your acceptance of such modifications.</p>
 
         <h2>18. Accessibility Statement</h2>
-        <p>Clerkly is dedicated to providing an accessible experience for all users. We continuously strive to conform with WCAG 2.1 Level AA standards. If you encounter any accessibility issues while interacting with our software or digital documentation, please notify us at <a href="mailto:snicks.legate-7y@icloud.com">snicks.legate-7y@icloud.com</a> for prompt assistance and remediation.</p>
+        <p>Clerkly is dedicated to providing an accessible experience for all users. We aim to conform to the Web Content Accessibility Guidelines (WCAG) 2.1 Level AA. Some content may not yet fully conform &mdash; including the third-party subscription paywall presented inside the app &mdash; and we are actively working to remediate known barriers. If you encounter any accessibility issues while interacting with our software or digital documentation, please notify us at <a href="mailto:snicks.legate-7y@icloud.com">snicks.legate-7y@icloud.com</a>. We aim to respond within 5 business days, and will work with you to provide any content or feature in an accessible alternative format while a reported barrier is being fixed.</p>
 
         <h2>19. Developer Contact Information</h2>
         <p>Direct any questions, complaints, or claims regarding the Licensed Application to:</p>

@@ -8,6 +8,9 @@
         :root {
             color-scheme: light dark;
             --primary: #007AFF;
+            --primary-text: #0057B8;
+            --btn-bg: #0057B8;
+            --btn-text: #FFFFFF;
             --bg: #F2F2F7;
             --card-bg: #FFFFFF;
             --text: #1C1C1E;
@@ -20,6 +23,9 @@
         @media (prefers-color-scheme: dark) {
             :root {
                 --primary: #0A84FF;
+                --primary-text: #0A84FF;
+                --btn-bg: #0A84FF;
+                --btn-text: #FFFFFF;
                 --bg: #000000;
                 --card-bg: #1C1C1E;
                 --text: #FFFFFF;
@@ -100,7 +106,7 @@
         }
 
         a {
-            color: var(--primary);
+            color: var(--primary-text);
             text-decoration: underline;
         }
 
@@ -109,7 +115,7 @@
         }
 
         a:focus-visible {
-            outline: 3px solid var(--primary);
+            outline: 3px solid var(--primary-text);
             outline-offset: 3px;
             border-radius: 2px;
         }
@@ -126,8 +132,8 @@
         }
 
         footer a {
-            color: var(--primary);
-            text-decoration: none;
+            color: var(--primary-text);
+            text-decoration: underline;
             margin: 0 8px;
         }
 
@@ -146,7 +152,7 @@
 <div class="container">
     <header>
         <h1>Privacy Policy</h1>
-        <p>Last Updated: November 5, 2026</p>
+        <p>Last Updated: November 7, 2026</p>
     </header>
 
     <main class="card">
@@ -189,7 +195,7 @@
         <p>We may update our Privacy Policy from time to time. Any changes will be posted on this page with an updated "Last Updated" date.</p>
 
         <h2>10. Accessibility Statement</h2>
-        <p>We are committed to digital accessibility and ensuring our software and web content conform to WCAG 2.1 Level AA accessibility standards. If you encounter any accessibility barriers while using Clerkly or our web services, please email us at <a href="mailto:snicks.legate-7y@icloud.com">snicks.legate-7y@icloud.com</a> and we will actively work to resolve the issue.</p>
+        <p>We are committed to digital accessibility and ensuring our software and web content aim to conform to the Web Content Accessibility Guidelines (WCAG) 2.1 Level AA. Some content may not yet fully conform &mdash; including the third-party subscription paywall presented inside the app &mdash; and we are actively working to remediate known barriers. If you encounter any accessibility barriers while using Clerkly or our web services, please email us at <a href="mailto:snicks.legate-7y@icloud.com">snicks.legate-7y@icloud.com</a>. We aim to respond within 5 business days, and will work with you to provide any content or feature in an accessible alternative format while a reported barrier is being fixed.</p>
         
         <h2>11. Contact Us</h2>
         <p>If you have questions regarding this Privacy Policy, you may contact us at <a href="mailto:snicks.legate-7y@icloud.com">snicks.legate-7y@icloud.com</a>.</p>
